@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4EAF851B24CFB889004ADAA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF851A24CFB889004ADAA6 /* AppDelegate.m */; };
-		4EAF851E24CFB889004ADAA6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF851D24CFB889004ADAA6 /* SceneDelegate.m */; };
 		4EAF852124CFB889004ADAA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF852024CFB889004ADAA6 /* ViewController.m */; };
 		4EAF852424CFB889004ADAA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAF852224CFB889004ADAA6 /* Main.storyboard */; };
 		4EAF852624CFB88A004ADAA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EAF852524CFB88A004ADAA6 /* Assets.xcassets */; };
@@ -16,6 +15,12 @@
 		4EAF852C24CFB88A004ADAA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF852B24CFB88A004ADAA6 /* main.m */; };
 		4EAF853624CFB88B004ADAA6 /* FW_PanoramicViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF853524CFB88B004ADAA6 /* FW_PanoramicViewTests.m */; };
 		4EAF854124CFB88B004ADAA6 /* FW_PanoramicViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF854024CFB88B004ADAA6 /* FW_PanoramicViewUITests.m */; };
+		4EAF855024CFBDED004ADAA6 /* SphereXmp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF854F24CFBDED004ADAA6 /* SphereXmp.m */; };
+		4EAF855324CFBE42004ADAA6 /* GlkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF855224CFBE42004ADAA6 /* GlkViewController.m */; };
+		4EAF855824CFBE5D004ADAA6 /* GLRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF855624CFBE5D004ADAA6 /* GLRenderView.m */; };
+		4EAF855924CFBE5D004ADAA6 /* UVSphere.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF855724CFBE5D004ADAA6 /* UVSphere.m */; };
+		4EAF855C24CFBF22004ADAA6 /* FWTakingDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF855A24CFBF22004ADAA6 /* FWTakingDetailVC.m */; };
+		4EAF855E24CFC11B004ADAA6 /* panoramic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EAF855D24CFC11B004ADAA6 /* panoramic.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,6 @@
 		4EAF851624CFB889004ADAA6 /* FW_PanoramicView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FW_PanoramicView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EAF851924CFB889004ADAA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EAF851A24CFB889004ADAA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4EAF851C24CFB889004ADAA6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		4EAF851D24CFB889004ADAA6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		4EAF851F24CFB889004ADAA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4EAF852024CFB889004ADAA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4EAF852324CFB889004ADAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,18 @@
 		4EAF853C24CFB88B004ADAA6 /* FW_PanoramicViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FW_PanoramicViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EAF854024CFB88B004ADAA6 /* FW_PanoramicViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FW_PanoramicViewUITests.m; sourceTree = "<group>"; };
 		4EAF854224CFB88B004ADAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EAF854E24CFBDED004ADAA6 /* SphereXmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereXmp.h; sourceTree = "<group>"; };
+		4EAF854F24CFBDED004ADAA6 /* SphereXmp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereXmp.m; sourceTree = "<group>"; };
+		4EAF855124CFBE42004ADAA6 /* GlkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlkViewController.h; sourceTree = "<group>"; };
+		4EAF855224CFBE42004ADAA6 /* GlkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlkViewController.m; sourceTree = "<group>"; };
+		4EAF855424CFBE5D004ADAA6 /* GLRenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLRenderView.h; sourceTree = "<group>"; };
+		4EAF855524CFBE5D004ADAA6 /* UVSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVSphere.h; sourceTree = "<group>"; };
+		4EAF855624CFBE5D004ADAA6 /* GLRenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLRenderView.m; sourceTree = "<group>"; };
+		4EAF855724CFBE5D004ADAA6 /* UVSphere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UVSphere.m; sourceTree = "<group>"; };
+		4EAF855A24CFBF22004ADAA6 /* FWTakingDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWTakingDetailVC.m; sourceTree = "<group>"; };
+		4EAF855B24CFBF22004ADAA6 /* FWTakingDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWTakingDetailVC.h; sourceTree = "<group>"; };
+		4EAF855D24CFC11B004ADAA6 /* panoramic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panoramic.jpg; sourceTree = "<group>"; };
+		4EAF856024CFC1E7004ADAA6 /* FW_PanoramicView.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FW_PanoramicView.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +121,20 @@
 			children = (
 				4EAF851924CFB889004ADAA6 /* AppDelegate.h */,
 				4EAF851A24CFB889004ADAA6 /* AppDelegate.m */,
-				4EAF851C24CFB889004ADAA6 /* SceneDelegate.h */,
-				4EAF851D24CFB889004ADAA6 /* SceneDelegate.m */,
 				4EAF851F24CFB889004ADAA6 /* ViewController.h */,
 				4EAF852024CFB889004ADAA6 /* ViewController.m */,
+				4EAF855B24CFBF22004ADAA6 /* FWTakingDetailVC.h */,
+				4EAF855A24CFBF22004ADAA6 /* FWTakingDetailVC.m */,
+				4EAF854E24CFBDED004ADAA6 /* SphereXmp.h */,
+				4EAF854F24CFBDED004ADAA6 /* SphereXmp.m */,
+				4EAF855124CFBE42004ADAA6 /* GlkViewController.h */,
+				4EAF855224CFBE42004ADAA6 /* GlkViewController.m */,
+				4EAF855424CFBE5D004ADAA6 /* GLRenderView.h */,
+				4EAF855624CFBE5D004ADAA6 /* GLRenderView.m */,
+				4EAF855524CFBE5D004ADAA6 /* UVSphere.h */,
+				4EAF855724CFBE5D004ADAA6 /* UVSphere.m */,
+				4EAF856024CFC1E7004ADAA6 /* FW_PanoramicView.pch */,
+				4EAF855D24CFC11B004ADAA6 /* panoramic.jpg */,
 				4EAF852224CFB889004ADAA6 /* Main.storyboard */,
 				4EAF852524CFB88A004ADAA6 /* Assets.xcassets */,
 				4EAF852724CFB88A004ADAA6 /* LaunchScreen.storyboard */,
@@ -242,6 +267,7 @@
 			files = (
 				4EAF852924CFB88A004ADAA6 /* LaunchScreen.storyboard in Resources */,
 				4EAF852624CFB88A004ADAA6 /* Assets.xcassets in Resources */,
+				4EAF855E24CFC11B004ADAA6 /* panoramic.jpg in Resources */,
 				4EAF852424CFB889004ADAA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,9 +294,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EAF852124CFB889004ADAA6 /* ViewController.m in Sources */,
+				4EAF855824CFBE5D004ADAA6 /* GLRenderView.m in Sources */,
 				4EAF851B24CFB889004ADAA6 /* AppDelegate.m in Sources */,
+				4EAF855324CFBE42004ADAA6 /* GlkViewController.m in Sources */,
+				4EAF855C24CFBF22004ADAA6 /* FWTakingDetailVC.m in Sources */,
+				4EAF855024CFBDED004ADAA6 /* SphereXmp.m in Sources */,
 				4EAF852C24CFB88A004ADAA6 /* main.m in Sources */,
-				4EAF851E24CFB889004ADAA6 /* SceneDelegate.m in Sources */,
+				4EAF855924CFBE5D004ADAA6 /* UVSphere.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,15 +470,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5R5392VVX2;
+				DEVELOPMENT_TEAM = XL4X86986U;
+				GCC_PREFIX_HEADER = /Users/xpchina001/Desktop/FW_PanoramicView/FW_PanoramicView/FW_PanoramicView.pch;
 				INFOPLIST_FILE = FW_PanoramicView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "fuwu.FW-PanoramicView";
+				PRODUCT_BUNDLE_IDENTIFIER = www.mouse.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,15 +489,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5R5392VVX2;
+				DEVELOPMENT_TEAM = XL4X86986U;
+				GCC_PREFIX_HEADER = /Users/xpchina001/Desktop/FW_PanoramicView/FW_PanoramicView/FW_PanoramicView.pch;
 				INFOPLIST_FILE = FW_PanoramicView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "fuwu.FW-PanoramicView";
+				PRODUCT_BUNDLE_IDENTIFIER = www.mouse.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
